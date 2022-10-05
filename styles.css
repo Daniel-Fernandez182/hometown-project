@@ -1,0 +1,116 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+.hero{
+    background-image: url("./images/wna-mountain.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    margin: 0px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#town-name{
+    background-color: #457B9D;
+    margin: 5px auto;
+    padding: 4px 12px;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+}
+
+#description{
+    background-color: #1D3557;
+    margin: 5px auto;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    color: lightgray;
+}
+
+.activities{
+    margin-top: 0px;
+    padding-top: 20px;
+    background-color: lightyellow;
+}
+
+.show{
+    border-radius: 100%;
+    margin: 20px 50px 0px 50px;
+    height: 100px;
+    width: 100px;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: lightcyan;
+}
+
+img {
+    width: 100px;
+}
+
+.surround {
+    background-color: white;
+    max-width: 700px;
+    margin: 35px auto;
+    padding: 7px;
+    border-radius: 25px;
+}
+
+.guider{
+    margin: 20px;
+    width: 120px;
+    height: 170px;
+}
+
+.guide{
+    color: #1D3557;
+    margin: 35px auto;
+    display: flex;
+    width: 350px;
+    background-color: #A8DADC;
+    border-bottom: #1D3557;
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;
+}
+
+.quote {
+    font-style: italic;
+    width: 180px;
+}
+
+.title{
+    margin: auto;
+    font-size: 150%;
+    color: #1D3557;
+}
+
+.your-guide {
+    margin-top: 20px;
+    font-size: 150%;
+}
+
+.activity-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mini-title {
+    color:#1D3557;
+}
+
+.activity {
+    color:#1D3557;
+}
